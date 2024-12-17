@@ -10,7 +10,7 @@ public class DriverManager {
     // Método para inicializar el driver
     public static WebDriver getDriver() {
         if (driver == null) {
-            System.setProperty("webdriver.chrome.driver", "C:\\ChromeDriver\\chromedriver-win64\\chromedriver.exe"); // Configura la ruta de tu chromedriver
+            System.setProperty("webdriver.chrome.driver", "C:\\ChromeDriver\\chromedriver-win64\\131.0.6778.87\\chromedriver.exe"); // Configura la ruta de tu chromedriver
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--start-maximized");
             driver = new ChromeDriver(options);
